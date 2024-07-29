@@ -50,6 +50,14 @@ func TestMergeSortedArray(t *testing.T) {
 			M:        2,
 			N:        5,
 		},
+		{
+			Name:     "returns [10, 30, 50, 60, 90, 100]",
+			Nums1:    []int{30, 50, 90, 100, 0, 0},
+			Nums2:    []int{10, 60},
+			Expected: []int{10, 30, 50, 60, 90, 100},
+			M:        4,
+			N:        2,
+		},
 	} {
 		t.Run(test.Name, func(t *testing.T) {
 			merge(test.Nums1, test.M, test.Nums2, test.N)
