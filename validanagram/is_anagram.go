@@ -37,6 +37,6 @@ func IsAnagram(s, t string) bool {
 	}
 
 	// time complexity: O(n)
-	// space complexity: O(1)
+	// space complexity: O(1) - table is constant
 	return true
 }
