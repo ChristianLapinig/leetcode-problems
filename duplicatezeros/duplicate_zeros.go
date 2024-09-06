@@ -4,6 +4,7 @@ package duplicatezeros
 // Description: https://leetcode.com/problems/duplicate-zeros/description/
 // Editorial/Solution: https://leetcode.com/problems/duplicate-zeros/editorial/
 func DuplicateZeros(arr []int) {
+	// TODO: review the optimal two-pass solution
 	// naive solution
 	// this will be O(n^2) but currently going through arrays 101 and
 	// learning about insertions
